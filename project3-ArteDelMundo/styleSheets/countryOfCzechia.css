@@ -1,0 +1,112 @@
+/*  External style sheet for countryOfCzechia.html
+    Author:  Isabel Overman
+    Date:  10/04/2018
+*/
+
+/*
+    Below are styles that are specific to the
+    countryOfCzechia.html web page
+*/
+
+body {
+    background-color: #ae0d7a;
+}
+
+div#wrapper {
+    border: .3em solid #7fbd32;
+    background-color: #f7f4d4;
+}
+
+header {
+    margin-bottom: 3em;
+    background-color: #7fbd32;
+}
+
+figure#coatOfArmsFigure {
+    float: left;
+    width: 10em;
+    margin-right: 3.5em;
+    margin-left: 2em;
+}
+
+figcaption {
+    text-align: center;
+}
+
+img#coatOfArms {
+    width: 100%;
+    padding: 1em;
+    margin-left: -0.9em;;
+}
+
+figure#mapFigure {
+    float: right;
+    width: 35em;
+    margin-left: 1.5em;
+}
+
+img#mapImage {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+article#artistsArticle {
+    margin: 2em auto 2em 14em;
+    width: 12em;
+    padding: 0.5em 1.5em 1.5em 1.5em;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+article#artistsArticle a {
+    background-color: #7fbd32;
+    padding: 0.5em;
+    color: white;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border-radius: 20px;
+    display: inline-block;
+    width: 10em;
+    box-shadow: 3px 4px 5px grey;
+}
+
+article#artistsArticle a:hover, article#artistsArticle a:focus {
+    border: .2em solid darkgreen;
+}
+
+article#artistsArticle a:visited {
+    color: #fded2a;
+}
+
+article#czechiaLinks {
+    margin: 3em auto 2em auto;
+    width: 30em;
+    background-color: #fded2a;
+    padding: 0.5em 1.5em 1.5em 1.5em;
+    font-size: 1.3em;
+}
+
+article#czechiaLinks h2 {
+    text-align: center;
+}
+
+article#czechiaLinks a:hover, article#czechiaLinks a:focus {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 4em;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer img {
+    margin-right: 1em;
+    margin-left: 1em;
+}
