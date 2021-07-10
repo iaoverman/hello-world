@@ -18,7 +18,7 @@ Project 2 is a simple project where I used the Geonames API to get the weather f
 
 
 
-
+# Everything below this point is for my reference, please ignore. I'll get rid of it once I'm used to the controls it describes.
 
 # Welcome to GitHub
 
