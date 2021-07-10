@@ -16,7 +16,9 @@ Project 2 is a simple project where I used the Geonames API to get the weather f
 
 Project 4 for PHP (zip file) is a concert ticket ordering and reports system with everything except an actual credit card interation. Again, I don't remember if there is environment set up that needs to be done to view the working final product.
 
+## UIUX
 
+Arte del Mundo was the first website I built. It wasn't good, I was just demonstrating skills. In a later class I reworked the homepage to be better in terms of looks and accessibility. That reworked homepage is the best example I still have from my UIUX class. It is under project3-ArteDelMundo.
 
 
 
