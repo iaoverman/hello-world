@@ -20,6 +20,12 @@ Project 4 for PHP (zip file) is a concert ticket ordering and reports system wit
 
 Arte del Mundo was the first website I built. It wasn't good, I was just demonstrating skills. In a later class I reworked the homepage to be better in terms of looks and accessibility. That reworked homepage is the best example I still have from my UIUX class. It is under project3-ArteDelMundo.
 
+## HTML, CSS, JS
+
+This is the second website I made. It is mostly to demonstrate basic website building skills. For example, there are forms and a banner that changes based on the seasons (javascript). 
+
+
+
 
 
 # Everything below this point is for my reference, please ignore. I'll get rid of it once I'm used to the controls it describes.
