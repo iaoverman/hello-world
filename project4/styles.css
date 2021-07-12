@@ -1,0 +1,183 @@
+input[type="submit"] {
+    background-color: lightblue;
+    color: black;
+    font-size: 1.2em;
+    padding: 0.5em;
+    margin: 0.2em;
+}
+
+input[type="submit"]:hover {
+    border: 0.1em inset lightgrey;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.2em;
+    display: inline-block;
+    line-height: 1.5em;
+}
+
+a:after {
+    content: '';
+    width: 0px;
+    height: 1px;
+    display: block;
+    background: black;
+    transition: 300ms;
+}
+
+a:hover:after {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin: 1em auto 0 auto;
+}
+
+form {
+    width: 60%;
+    margin: 1em auto 1em auto;
+    padding: 1em;
+}
+
+form#index {
+    text-align: center;
+}
+
+
+form#tickets,
+form#concert,
+form#venue {
+    font-size: 1.5em;
+    padding: 1em;
+    /*border: 0.1em solid pink;/**/
+    line-height: 1.7em;
+}
+
+table, th, td {
+    border: 0.1em solid black;
+    border-collapse: collapse;
+}
+
+th {
+    height: 1.4em; 
+    background-color: #353535;
+    color: #fff;
+}
+
+th, td {
+    padding: 0.3em;
+}
+
+table {
+    margin: 2em auto 1em 0em;
+}
+
+article#confirm {
+    font-size: 1.2em;
+    text-align: left;
+    
+    margin: 1em auto 2em;
+    width: 60%;
+}
+
+article#confirm p {
+    text-align: center;
+    font-size: 0.8em;
+    margin: 1em auto 1em auto;
+}
+
+
+
+main {
+    width: 80%;
+    margin: 0 auto 0 auto;
+}
+
+img {
+    width: 10em;
+    margin: 0.5em 0 0.5em 1em;
+}
+
+p {
+    text-align: right;
+    font-size: 1em;
+    margin: 0.5em 1em 2em 0;
+    width: 90%;
+}
+
+article#index {
+   
+    font-size: 1.3em;
+    width: 70%;
+    margin: 1em auto 1em auto;
+}
+
+article#index a {
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+}
+
+.spacer {
+    display: inline-block;
+    width: 2em;
+    /* <span class="spacer"></span> /**/
+}
+
+
+
+/**********************************
+        Kari's Clean Sticky Footer
+***********************************/
+html, body {
+        height: 100%;     
+}
+
+body {
+        display: flex;    
+        flex-direction: column;
+}
+
+main {
+        flex: 1 0 auto;    
+}
+
+footer {
+        flex-shrink: 0;
+        
+        font-family: serif;
+}
+
+
+
+
+
+/*
+form span {
+    display: inline-block;
+    border: 0.1em solid pink;
+    width: fit-content;
+}
+
+
+
+fieldset#concertfieldset   {
+    display: flex;
+    flex-flow: row nowrap;
+    
+   
+}
+
+span#concertitle {
+    flex-grow: 1;
+    border: 0.1em solid pink;
+}
+
+span#sunday {
+    align-self: flex-end;
+}
+*/
+
