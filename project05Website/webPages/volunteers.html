@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <!-- Author: Isabel Overman
+ Date: 12/12/2018
+ -->
+ <title>Volunteers</title>
+ <meta charset="UTF-8" />
+ <link href="../styleSheets/masterStyles.css"
+       rel="stylesheet"
+       type="text/css" />
+ <link href="../styleSheets/volunteers.css"
+       rel="stylesheet"
+       type="text/css" />
+ <link href="../styleSheets/masterRWD.css"
+       rel="stylesheet"
+       type="text/css"  />
+
+ <script src="../jsFiles/masterJavaScript.js"></script>
+
+</head>
+
+<body>
+
+<div id="wrapper">
+  <p id="topBanner">
+    <script>displayTopBanner();</script>
+  </p>
+
+ <header>
+    <h1>Our Volunteers</h1>
+ </header>
+
+ <section>
+
+  <article>
+    <nav id="topNav">
+      <span class="lilSpace"></span>&bull;<span class="lilSpace"></span>
+      <a href="about.html">About Shelf Indulgence</a>
+      <span class="lilSpace"></span>&bull;<span class="lilSpace"></span>
+      <a href="staff.html">Staff</a>
+      <span class="lilSpace"></span>&bull;<span class="lilSpace"></span>
+    </nav>
+  </article>
+
+  <article>
+    <h2>Our Volunteers and Their Favorite Books</h2>
+    <table>
+      <tr>
+        <td>
+          <img alt="picture of volunteer"
+               src="../images/headShot1.jpg"
+               class="headshot" />
+          <br />
+          Lora
+        </td>
+        <td>
+          <img alt="image of volunteer"
+               src="../images/headShot2.jpg"
+               class="headshot" />
+          <br />
+          Elliot
+        </td>
+        <td>
+          <img alt="image of volunteer"
+               src="../images/headShot3.jpg"
+               class="headshot" />
+          <br />
+          Alyssa
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img alt="cover of A Room With a View"
+               src="../images/roomWithAView.jpg">
+          <br />
+          <a href="https://www.amazon.com/Room-View-M-Forster/dp/1420955977/ref=sr_1_3?s=books&ie=UTF8&qid=1545150381&sr=1-3&keywords=a+room+with+a+view"
+             target="tabtab"
+             title="Check Out A Room with a View on Amazon">
+            <i>A Room With A View</i> by E.M. Forster
+          </a>
+        </td>
+        <td>
+          <img alt="cover of The Alchemist"
+               src="../images/alchemist.jpg">
+          <br />
+          <a href="https://www.amazon.com/Alchemist-Paulo-Coelho/dp/0062315005/ref=sr_1_1?s=books&ie=UTF8&qid=1545150458&sr=1-1&keywords=the+alchemist"
+             target="newpage"
+             title="Check Out The Alchemist on Amazon">
+            <i>The Alchemist</i> by Paulo Coelho
+          </a>
+        </td>
+        <td>
+          <img alt="cover of A Prayer for Owen Meany"
+               src="../images/owenMeany.jpg">
+          <br />
+          <a href="https://www.amazon.com/Prayer-Owen-Meany-Novel/dp/0062204092/ref=sr_1_1?s=books&ie=UTF8&qid=1545150487&sr=1-1&keywords=a+prayer+for+owen+meany"
+             target="goaway"
+             title="Check Out A Prayer for Owen Meany on Amazon">
+            <i>A Prayer for Owen Meany</i> by John Irving
+          </a>
+        </td>
+      </tr>
+
+    </table>
+
+    </article>
+
+  <article id="volunteersInfo">
+    <p>
+      Our volunteers at Shelf Indulgence are super helpful! They help with
+      book clubs and other events, sorting and shelving incoming books, and
+      completing customer book requests.
+    </p>
+    <p id="studentsShoutout">
+      <b>Students!</b> Get volunteer hours by becoming a volunteer and/or helping
+      at events!
+    </p>
+  </article>
+
+  <article>
+    <p id="formParaph">
+      If you would like to become a volunteer, you can fill out our New Volunteer
+      Form. Click the
+      <span id="formReveal"
+            onClick="displayForm()"
+            title="Click to Reveal Form" />
+        New Volunteer Form</span>
+      button to begin.
+    </p>
+
+  </article>
+
+  <article id="formArticle">
+
+  </article>
+
+ </section>
+
+ <footer>
+   <a href="index.html">
+     <img alt="black and white home button"
+          src="../images/button_home.png"
+          class="buttonClass"
+          onmouseover="this.src='../images/button_home_shadow.png'"
+          onmouseout="this.src='../images/button_home.png'" /></a>
+
+   <p class="revised">
+     <script>dateRendered();</script>
+   </p>
+   <p class="revised">Last Revised: 12/2018 I.Overman</p>
+ </footer>
+</div>
+
+</body>
+</html>

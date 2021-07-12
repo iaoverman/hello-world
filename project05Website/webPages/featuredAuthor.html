@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <!-- Author: Isabel Overman
+ Date: 12/17/2018
+ -->
+ <title>Featured Author</title>
+ <meta charset="UTF-8" />
+ <link href="../styleSheets/masterStyles.css"
+       rel="stylesheet"
+       type="text/css" />
+ <link href="../styleSheets/featuredAuthor.css"
+       rel="stylesheet"
+       type="text/css" />
+ <link href="../styleSheets/masterRWD.css"
+       rel="stylesheet"
+       type="text/css"  />
+
+ <script src="../jsFiles/masterJavaScript.js"></script>
+
+</head>
+
+<body>
+
+<div id="wrapper">
+  <p id="topBanner">
+    <script>displayTopBanner();</script>
+  </p>
+
+ <header>
+    <h1>Author of the Month</h1>
+ </header>
+
+ <section>
+  <h2>Patrick Rothfuss</h2>
+
+  <article>
+    <img alt="author Patrick Rothfuss"
+         src="../images/patrickRothfuss.jpg"
+         id="authorImage" />
+    <p id="authorBio">
+      Patrick Rothfuss always wanted to be fantasy author when he grew up.
+      Now that his first novel is published it's generally agreed that he has
+      achieved his dream. However, there is some debate as to whether or not
+      he has, in fact, grown up. An avid Dungeons and Dragons fan, Rothfuss is
+      also known for his love of board games and role playing games. He has guest
+      starred multiple times on
+      <a href="https://www.youtube.com/playlist?list=PL7atuZxmT956cWFGxqSyRdn6GWhBxiAwE"
+         target="elsewhere">Wil Wheaton's <i>Tabletop</i></a>.
+    </p>
+    <p>
+      Native Wisconsinite, Rothfuss went to DeForest High School and UW Stevens
+      Point before getting his masters at Washington State University. He has
+      received the Quill Award for Sci-Fi/Fantasy/Horror in 2007 for his first
+      book <i>The Name of the Wind</i>, and the David Gemmel Award for
+      best fantasy novel in 2012 for the second book of <i>The Kingkiller
+      Chronicle</i> series, <i>Wise Man's Fear</i>.
+    </p>
+    <p>
+      Additionally, Rothfuss has published <i>The Slow Regard of Silent
+      Things</i>&mdash;which is a companion tale to <i>The Kingkiller Chronicle</i>
+      series&mdash;and two novella stories of his have been published in
+      anthologies: "How Old Holly Came To Be", in <i>Unfettered</i>, and
+      <i>The Lightning Tree</i> in <i>Rogues</i>.
+    </p>
+  </article>
+
+  <table id="booksTable">
+    <tr>
+      <td>
+        <img alt="cover of The Name of the Wind"
+             src="../images/nameOfTheWind.jpg"
+             id="nameOfTheWindImage" />
+      </td>
+      <td>
+        <img alt="cover of Wise Man's Fear"
+             src="../images/wiseMansFear.jpg"
+             id="wiseMansFearImage" />
+      </td>
+      <td>
+        <img alt="cover of The Slow Regard of Silent Things"
+             src="../images/slowRegardOfSilentThings.jpg"
+             id="slowRegardImage" />
+      </td>
+      <td rowspan="2">
+        <p id="extraLinks">
+          Check out Patrick Rothfuss's website<br />
+          <a href="https://www.patrickrothfuss.com/content/index.asp"
+             target="something"
+             title="Go To Partrick Rothfuss's Website"
+             id="authorWebsite">here</a>
+        </p>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+         <figcaption id="windFigcaption">
+           <i>The Name of the Wind</i>
+         </figcaption>
+      </td>
+      <td>
+         <figcaption id="fearFigcaption">
+           <i>Wise Man's Fear</i>
+         </figcaption>
+      </td>
+      <td>
+         <figcaption id="silentFigCaption">
+           <i>The Slow Regard of Silent Things</i>
+         </figcaption>
+      </td>
+    </tr>
+  </table>
+
+  <article id="reviews">
+    <h3>Reviews</h3>
+    <p>
+      "I was reminded of Ursula LeGuin, George R. R. Martin, and J. R. R.
+      Tolkien, but never felt that Rothfuss was imitating anyone. Like the
+      writers he clearly admires, he's an old-fashioned storyteller working with
+      traditional elements, but his voice is his own. I haven't been so gripped
+      by a new fantasy series in years. It's certain to become a classic."
+      <br /><b>-The London Times</b>
+    </p>
+    <p>
+      "[<i>The Wise Man's Fear</i>] was worth the wait. I gulped it down in a day,
+      staying up almost to dawn reading, and I am already itching for the next
+      one. He's bloody good, this Rothfuss guy."
+      <br /><b>-George R. R. Martin,</b>
+      <br />author of <i>A Game of Thrones</i>
+    </p>
+    <p>
+      "This is a magnificent book, a really fine story, highly readable and
+      engrossing. I compliment young Pat. His first novel is a great one. Wow!"
+      <br /><b>-Anne McCaffrey</b>
+    </p>
+  </article>
+ </section>
+
+ <footer>
+  <span class="lilSpace"></span>&bull;<span class="lilSpace"></span>
+  <a href="featuredBook.html">Check out our Book of the Month</a>
+  <span class="lilSpace"></span>&bull;<span class="lilSpace"></span>
+  <br /><br />
+   <a href="index.html" id="homebutton">
+     <img alt="black and white home button"
+          src="../images/button_home.png"
+          class="buttonClass"
+          onmouseover="this.src='../images/button_home_shadow.png'"
+          onmouseout="this.src='../images/button_home.png'" /></a>
+
+   <p class="revised">
+     <script>dateRendered();</script>
+   </p>
+   <p class="revised">Last Revised: 12/2018 I.Overman</p>
+ </footer>
+</div>
+
+</body>
+</html>

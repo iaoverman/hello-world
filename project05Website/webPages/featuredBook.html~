@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <!-- Author: Isabel Overman
+ Date: 12/12/2018
+ -->
+ <title>Featured Book</title>
+ <meta charset="UTF-8" />
+ <link href="../styleSheets/masterStyles.css"
+       rel="stylesheet"
+       type="text/css" />
+ <link href="../styleSheets/featuredBook.css"
+       rel="stylesheet"
+       type="text/css" />
+ <link href="../styleSheets/masterRWD.css"
+       rel="stylesheet"
+       type="text/css"  />
+
+ <script src="../jsFiles/masterJavaScript.js"></script>
+
+</head>
+
+<body>
+
+<div id="wrapper">
+  <p id="topBanner">
+    <script>displayTopBanner();</script>
+  </p>
+
+ <header>
+    <h1>Book of the Month</h1>
+    <h2>Catch 22</h2>
+    <h3>by Joseph Heller</h3>
+ </header>
+
+ <section>
+  <img alt="cover of Catch 22"
+       src="../images/catch22.jpg"
+       id="bookCover" />
+
+  <article id="summary">
+    During the second half of World War II, a soldier named Yossarian is
+    stationed with his Air Force squadron on the island of Pianosa, near the
+    Italian coast in the Mediterranean Sea. Yossarian and his friends endure a
+    nightmarish, absurd existence defined by bureaucracy and violence: they are
+    inhuman resources in the eyes of their blindly ambitious superior officers.
+    The squadron is thrown thoughtlessly into brutal combat situations and
+    bombing runs in which it is more important for the squadron members to
+    capture good aerial photographs of explosions than to destroy their targets.
+    Their colonels continually raise the number of missions that they are
+    required to fly before being sent home, so that no one is ever sent home.
+    Still, no one but Yossarian seems to realize that there is a war going on;
+    everyone thinks he is crazy when he insists that millions of people are
+    trying to kill him.
+  </article>
+
+  <article>
+    <h3>Reviews</h3>
+
+    <p>
+      "<i>Catch-22</i> is the only war novel I've ever read that makes any sense."
+      <br />&mdash;Harper Lee
+    </p>
+      "To my mind, there have been two great American novels in the past fifty
+      years. Catch-22 is one."
+      <br />&mdash;Stephen King, <i>Entertainment Weekly</i>
+  </article>
+
+  <article id="aboutAuthor">
+    <h3>A Little About the Author</h3>
+
+    Joseph Heller was born in Brooklyn in 1923. In 1961, he published <i>Catch-22</i>,
+    which became a bestseller and, in 1970, a film. He went on to write such
+    novels as <i>Good as Gold</i>, <i>God Knows</i>, <i>Picture This</i>,
+    <i>Closing Time</i>, and <i>Portrait of an Artist, as an Old Man</i>.
+    Heller died in 1999.
+  </article>
+
+  <article id="recommendations">
+    <h3>Recommendations</h3>
+    If you like <i>Catch 22</i>, you might like...
+    <ul>
+      <li><i>The Adventures of Augie March</i> by Saul Bellow</li>
+      <li><i>Mother Night</i> by Kurt Vonnegut</li>
+      <li><i>A Bend in the River</i> by V.S. Naipaul</li>
+    </ul>
+  </article>
+
+  <article id="bottomNav">
+    <span class="lilSpace"></span>&bull;<span class="lilSpace"></span>
+    <a href="featuredAuthor.html">Check out our Author of the Month</a>
+    <span class="lilSpace"></span>&bull;<span class="lilSpace"></span>
+  </article>
+
+ </section>
+
+ <footer>
+   <a href="index.html">
+     <img alt="black and white home button"
+          src="../images/button_home.png"
+          class="buttonClass"
+          onmouseover="this.src='../images/button_home_shadow.png'"
+          onmouseout="this.src='../images/button_home.png'" /></a>
+
+   <p class="revised">
+     <script>dateRendered();</script>
+   </p>
+   <p class="revised">Last Revised: 12/2018 I.Overman</p>
+ </footer>
+</div>
+
+</body>
+</html>

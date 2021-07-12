@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <!-- Author: Isabel Overman
+Date: 12/17/2018
+ -->
+ <title>Request A Book</title>
+ <meta charset="UTF-8" />
+ <link href="../styleSheets/masterStyles.css"
+       rel="stylesheet"
+       type="text/css" />
+ <link href="../styleSheets/bookRequest.css"
+       rel="stylesheet"
+       type="text/css" />
+ <link href="../styleSheets/masterRWD.css"
+       rel="stylesheet"
+       type="text/css"  />
+
+ <script src="../jsFiles/masterJavaScript.js"></script>
+
+</head>
+
+<body>
+
+<div id="wrapper">
+  <p id="topBanner">
+    <script>displayTopBanner();</script>
+  </p>
+
+ <header>
+    <h1>Request A Book</h1>
+ </header>
+
+ <section>
+
+  <article>
+
+    <nav id="topNav">
+      <span class="lilSpace"></span>&bull;<span class="lilSpace"></span>
+      <a href="contactUs.html">Contact Us</a>
+      <span class="lilSpace"></span>&bull;<span class="lilSpace"></span>
+      <a href="whatWeDo.html">What We Do</a>
+      <span class="lilSpace"></span>&bull;<span class="lilSpace"></span>
+    </nav>
+  </article>
+
+  <article id="instructions">
+    We are a used book store, which means books come and go and we don't have a
+    regulated stock of books. If you would like to find out if we have a
+    specific book on hand, please fill out this form. If we have a copy, we'll
+    contact you, then pull it and hold it for 24 hours for you to pick up or get
+    back to us with a later time you can pick it up. If we don't have a copy,
+    we'll still contact you.
+  </article>
+
+  <article>
+      <!--FORM STARTS HERE -->
+      <form action="http://itins3.madisoncollege.edu/echo.php"
+            method="post"
+            name="contactUsForm"
+            id="contactUsForm">
+      <fieldset>
+        <legend>Book Request Form</legend>
+        <!--FIRST NAME -->
+        <label for="firstName" class="setWidth">First Name</label>
+        <input type="text" name="firstName" id="firstName"
+               required="required" />
+        &emsp;
+        <!--LAST NAME -->
+        <label for="lastName" class="setWidth">Last Name</label>
+        <input type="text" name="lastName" id="lastName"
+               required="required" />
+        <br /><br />
+        <!--BOOK TITLE -->
+        <label for="bookTitle" class="setWidth">Book Title</label>
+        <input type="text" name="bookTitle" id="bookTitle"
+               required="required" />
+        &emsp;
+        <!--BOOK AUTHOR -->
+        <label for="bookAuthor" class="setWidth">Book Author</label>
+        <input type="text" name="bookAuthor" id="bookAuthor"
+               required="required" />
+        <br /><br />
+        <!--EMAIL -->
+        <label for="emailAddress" class="setWidth">Email Address</label>
+        <input type="text" name="emailAddress" id="emailAddress">
+        &emsp;
+        <!--PHONE -->
+        <label for="phoneNumber" class="setWidth">Phone Number</label>
+        <input type="text" name="phoneNumber" id="phoneNumber"
+               required="required" />
+        <br /><br />
+        <!--BEST WAY TO CONTACT YOU -->
+        <label for="bestContact">What's the best way to contact you?</label>
+        <br />
+        <input type="radio" name="bestContact" value="email"
+               id="bestContactEmail" required="required" />
+        <label for="bestContactEmail" id="bestContactEmail">Email</label>
+        &emsp;
+        <input type="radio" name="bestContact" value="phone"
+               id="bestContactPhone"required="required" />
+        <label for="bestContactPhone" id="bestContactPhone">Phone</label>
+        <br /><br />
+        <!--COMMENT BOX -->
+        <label for="commentBox">Add any comments here:</label>
+        <br />
+        <textarea name="commentBox" id="commentBox" rows="4" cols="85"
+                  maxlength="1500"></textarea>
+        <br /><br />
+        <!--SUBMIT BUTTONS -->
+        <p id="buttonsParaph">
+          <input type="submit" value="Submit Form" class="submitButton" />
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="reset" value="Clear Form" class="submitButton" />
+        </p>
+      </fieldset>
+    </form>
+    <!--END OF FORM -->
+
+  </article>
+
+ </section>
+
+ <footer>
+   <a href="index.html">
+     <img alt="black and white home button"
+          src="../images/button_home.png"
+          onmouseover="this.src='../images/button_home_shadow.png'"
+          onmouseout="this.src='../images/button_home.png'" /></a>
+
+   <p class="revised">
+     <script>dateRendered();</script>
+   </p>
+   <p class="revised">Last Revised: 12/2018 I.Overman</p>
+ </footer>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <!-- Author: Isabel Overman
+ Date: 12/13/2018
+ -->
+ <title>Contact Us</title>
+ <meta charset="UTF-8" />
+ <link href="../styleSheets/masterStyles.css"
+       rel="stylesheet"
+       type="text/css" />
+ <link href="../styleSheets/contactUs.css"
+       rel="stylesheet"
+       type="text/css" />
+ <link href="../styleSheets/masterRWD.css"
+       rel="stylesheet"
+       type="text/css"  />
+
+ <script src="../jsFiles/masterJavaScript.js"></script>
+
+</head>
+
+<body>
+
+<div id="wrapper">
+  <p id="topBanner">
+    <script>displayTopBanner();</script>
+  </p>
+
+ <header>
+    <h1>Contact Us</h1>
+ </header>
+
+ <section>
+
+  <article>
+
+    <nav id="topNav">
+      <a href="bookRequest.html">Request A Book</a>
+      <span class="lilSpace"></span>&bull;<span class="lilSpace"></span>
+      <a href="staff.html">Staff</a>
+      <span class="lilSpace"></span>&bull;<span class="lilSpace"></span>
+      <a href="about.html">About Shelf Indulgence</a>
+    </nav>
+  </article>
+
+  <article id="instructions">
+    If you have any comments or concerns, feel free to share them with the staff
+    of Shelf Indulgence and one of us will get back to you as soon as we can. If
+    you want to inquire about a book, please fill out our Request a Book form
+    <a href="bookRequest.html" title="Go to Book Request Form">here</a>.
+  </article>
+
+  <article>
+    <!--FORM STARTS HERE -->
+      <form action="http://itins3.madisoncollege.edu/echo.php"
+            method="post"
+            name="contactUsForm"
+            id="contactUsForm">
+      <fieldset>
+        <legend>Contact Shelf Indulgence</legend>
+        <!--FIRST NAME -->
+        <label for="firstName" class="setWidth">First Name</label>
+        <input type="text" name="firstName" id="firstName" required="required" />
+        <span class="fullText">&emsp;</span>
+        <span class="shortText"><br /></span>
+        <!--LAST NAME -->
+        <label for="lastName" class="setWidth">Last Name</label>
+        <input type="text" name="lastName" id="lastName" required="required" />
+        <br /><br />
+        <!--EMAIL -->
+        <label for="emailAddress" class="setWidth">Email Address</label>
+        <input type="text" name="emailAddress" id="emailAddress" required="required" />
+        <span class="fullText">&emsp;</span>
+        <span class="shortText"><br /></span>
+        <!--PHONE -->
+        <label for="phoneNumber" class="setWidth">Phone Number</label>
+        <input type="text" name="phoneNumber" id="phoneNumber" required="required" />
+        <br /><br />
+        <!--BEST WAY TO CONTACT YOU -->
+        <label for="bestContact">What's the best way to contact you?</label>
+        <br />
+        <input type="radio" name="bestContact" value="email"
+               id="bestContactEmail" required="required" />
+        <label for="bestContactEmail" id="bestContactEmail">Email</label>
+        <span class="fullText">&emsp;</span><span class="shortText"><br /></span>
+        <input type="radio" name="bestContact" value="phone"
+               id="bestContactPhone" required="required" />
+        <label for="bestContactPhone" id="bestContactPhone">Phone</label>
+        <br /><br />
+        <!--COMMENT BOX -->
+        <label for="commentBox">Add your comment or concern here:</label>
+        <br />
+        <textarea name="commentBox" id="commentBox" rows="4" cols="85"
+                  maxlength="1500"></textarea>
+        <br /><br />
+        <!--SUBMIT BUTTONS -->
+        <p id="buttonsParaph">
+          <input type="submit" value="Submit Form" class="submitButton" />
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="reset" value="Clear Form" class="submitButton" />
+        </p>
+      </fieldset>
+    </form>
+    <!--END OF FORM -->
+  </article>
+
+ </section>
+
+ <footer>
+   <a href="index.html">
+     <img alt="black and white home button"
+          src="../images/button_home.png"
+          class="buttonClass"
+          onmouseover="this.src='../images/button_home_shadow.png'"
+          onmouseout="this.src='../images/button_home.png'" /></a>
+
+   <p class="revised">
+     <script>dateRendered();</script>
+   </p>
+   <p class="revised">Last Revised: 12/2018 I.Overman</p>
+ </footer>
+</div>
+
+</body>
+</html>

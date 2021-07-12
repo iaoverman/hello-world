@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <!-- Author: Isabel Overman
+ Date: 12/12/2018
+ -->
+ <title>What We Do</title>
+ <meta charset="UTF-8" />
+ <link href="../styleSheets/masterStyles.css"
+       rel="stylesheet"
+       type="text/css" />
+ <link href="../styleSheets/whatWeDo.css"
+       rel="stylesheet"
+       type="text/css" />
+ <link href="../styleSheets/masterRWD.css"
+       rel="stylesheet"
+       type="text/css"  />
+
+ <script src="../jsFiles/masterJavaScript.js"></script>
+
+</head>
+
+<body>
+
+<div id="wrapper">
+  <p id="topBanner">
+    <script>displayTopBanner();</script>
+  </p>
+
+ <header>
+    <h1>What We Do</h1>
+ </header>
+
+ <section>
+
+  <article id="infoParaph">
+    Shelf Indulgence strives to spread a love of reading and books to as many
+    people in the community as possible. We are doing this through hosting
+    book clubs and children's book-related events, showcasing books and authors
+    on our website every month, and helping you find books you love. Please take
+    a few minutes to browse our website and learn more about Shelf Indulgence!
+  </article>
+
+  <figure>
+    <img alt="stack of books with words book club"
+         src="../images/bookClub.png" />
+    <img alt="shelf of books with words book of the month"
+         src="../images/bookOfTheMonth.png" />
+  </figure>
+
+  <article id="bottomNav">
+    <span class="lilSpace"></span>&bull;<span class="lilSpace"></span>
+    <a href="bookRequest.html">Request A Book</a>
+    <span class="lilSpace"></span>&bull;<span class="lilSpace"></span>
+    <a href="events.html">Events</a>
+    <span class="lilSpace"></span>&bull;<span class="lilSpace"></span>
+  </article>
+
+ </section>
+
+ <footer>
+   <a href="index.html">
+     <img alt="black and white home button"
+          src="../images/button_home.png"
+          onmouseover="this.src='../images/button_home_shadow.png'"
+          onmouseout="this.src='../images/button_home.png'" />
+   </a>
+
+   <p class="revised">
+     <script>dateRendered();</script>
+   </p>
+   <p class="revised">Last Revised: 12/2018 I.Overman</p>
+ </footer>
+</div>
+
+</body>
+</html>
