@@ -1,0 +1,47 @@
+/*  External style sheet for friendsInfo.html
+    Author:  Isabel Overman
+    Date:  05/02/2019
+*/
+
+/*
+    Below are styles that are specific to the
+    friendsInfo.html web page
+*/
+
+/* CSS Take Two*/
+
+/* headings */ 
+#friendHeading {
+    padding-bottom: 0.5em;
+}
+
+#whoFriendHeading, #costHeading, #joinHeading {
+    padding: 1em 1em 0.5em 1em;
+}
+
+
+/* text */
+article {
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+/* list in middle of text */ 
+ul#textList {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* category */ 
+
+article#joinParaph {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+
+
+/* footer */ 
+

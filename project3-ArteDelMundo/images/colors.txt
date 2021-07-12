@@ -1,0 +1,30 @@
+	index colors: 
+	f7f4d4 (cream)
+	fded2a (yellow)
+	ae0d7a (fushia)
+	7fbd32 (light green)
+	213409 (dark green)
+
+
+img (creamish) + dark green : friendsInfo
+cream + dark green : index, faq, customerComment
+cream + yellow : allProducts
+cream + fushia : countryOfCzechia 
+cream + light green : world
+light green + dark green : artistOverman
+light green + fushia : allArtists
+light green + yellow : newFriend, newArtist, newProduct
+light green + cream : 
+
+
+Buttons:
+rounded rectangle: 7
+simple gradient
+	top: 7fbd32
+	bottom: 213409
+border
+	2
+	ae0d7a
+font: droid
+text shadow
+	distance: 2
