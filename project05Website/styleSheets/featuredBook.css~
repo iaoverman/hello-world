@@ -1,0 +1,44 @@
+/*  External style sheet for featuredBook.html
+    Author:  Isabel Overman
+    Date:  mm/dd/2018
+*/
+
+/*
+    Below are styles that are specific to the
+    featuredBook.html web page
+*/
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+img#bookCover {
+    float: right;
+    margin-left: 1em;
+}
+
+article#aboutAuthor {
+    width: 40em;
+    float: left;
+    margin-right: 3em;
+    margin-top: 3em;
+}
+
+article#recommendations {
+    margin-top: 2em;
+    margin-left: 1em;
+}
+
+article#bottomNav {
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+footer {
+    text-align: center;
+}

@@ -1,0 +1,32 @@
+/*  External style sheet for newFriend.html
+    Author:  Isabel Overman
+    Date:  12/18/2018
+*/
+
+/*
+    Below are styles that are specific to the
+    newFriend.html web page
+*/
+
+article#instructions {
+    width: 65em;
+    margin: 1em auto 1em auto;
+    background-color: #747474;
+    color: white;
+    border: .2em dotted #b90000;
+    padding: .5em;
+}
+
+form {
+    border: 0.3em groove #b90000;
+    padding: 0.1em;
+
+}
+
+form legend {
+    background-color: #e80000;
+    padding: 0.1em;
+    border: 0.1em dotted black;
+    box-shadow: 1px 2px 3px darkslategrey;
+
+}

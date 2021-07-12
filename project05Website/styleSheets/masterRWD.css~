@@ -1,0 +1,56 @@
+/*  External style sheet for all RWD
+    Author:  Isabel Overman
+    Date:  12/17/2018
+*/
+
+/*
+    Below are styles that are specific to the RWD for
+    all the web pages.
+*/
+
+@media screen and (max-width: 35em) {
+
+    /*override from masterStyles.css*/
+    body {
+        padding: 0.1em;
+    }
+
+    div#wrapper {
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+        border: 0.1em solid #a20000;
+        padding: 0.15em;
+    }
+
+    h1 {
+        font-size: 0.9em;
+        padding: 0.1em;
+    }
+
+    section {
+        font-size: 0.8em;
+    }
+
+    form {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
+    fieldset {
+        padding: 0.1em;
+    }
+
+    span.lilSpace {
+        width: 0.4em;
+    }
+
+    .revised {
+        font-size: 0.6em;
+    }
+
+    a {
+        font-size: 0.8em;
+    }
+
+
+}

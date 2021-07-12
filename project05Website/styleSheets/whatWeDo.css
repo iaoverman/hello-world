@@ -1,0 +1,33 @@
+/*  External style sheet for whatWeDo.html
+    Author:  Isabel Overman
+    Date:  12/18/2018
+*/
+
+/*
+    Below are styles that are specific to the
+    whatWeDo.html web page
+*/
+
+
+article#infoParaph {
+    width: 65em;
+    margin: 1em auto 1em auto;
+    background-color: #d1d1d1;
+    border: .2em dashed #b90000;
+    padding: .5em;
+}
+
+article#bottomNav {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+figure {
+    text-align: center;
+}
+
+figure img {
+    height: 15em;
+    padding: 0.5em;
+}

@@ -1,0 +1,25 @@
+/*  External style sheet for about.html
+    Author:  Isabel Overman
+    Date:  12/17/2018
+*/
+
+/*
+    Below are styles that are specific to the
+    about.html web page
+*/
+
+article#aboutParaph {
+    width: 70em;
+    margin: 2em auto 2em auto;
+}
+
+figure {
+    float: left;
+    margin-right: 1em;
+    width: 9.2em;
+    padding: 0.3em;
+}
+
+img {
+    width: 9em;
+}

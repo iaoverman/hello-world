@@ -1,0 +1,105 @@
+/*  Master style sheet for all web pages in the website.html
+    Author:  Isabel Overman
+    Date:    12/17/2018
+*/
+
+/*  This rule is to ensure that all browsers will treat the
+    newer HTML5 elements as block-level (aka grouping) elements.
+*/
+
+header, footer, nav, section, article, aside, figure {
+    display: block;
+}
+
+/*---------------------------------------------------------------*/
+
+body {
+    padding: 1em .5em .5em 1em;
+    background-image: url(../images/handwritingBackgroundLighterAndCooler.gif);
+    background-color: rgb(253, 236, 213);
+}
+
+div#wrapper {
+    margin: 1em auto 1em auto;
+    max-width:  80em;
+    background-color: #e8e8e8;
+    border: .3em outset #a20000;
+    padding: 1.5em;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.2em;
+    font-family: "Courier New", serif;
+    background-color: #b9b9b9;
+    padding: .5em;
+}
+
+section {
+    font-size: 1.1em;
+}
+
+nav#topNav {
+    text-align: center;
+}
+
+p {
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: #d10000;
+}
+
+a:visited {
+    color: #740000;
+}
+
+a:hover {
+    text-shadow: 1px 2px 3px #2e2e2e;
+}
+
+form {
+    width: 38em;
+    margin: 2em auto 2em auto;
+    background-color: ghostWhite;
+}
+
+fieldset {
+    padding: 1em;
+}
+
+form p#buttonsParaph {
+    text-align: center;
+}
+
+.submitButton {
+    background-color: #d1d1d1;
+    border: 0.15em solid #8b0000;
+    border-radius: 15px;
+    padding: 0.2em 0.5em 0.2em 0.5em;
+}
+
+.submitButton:hover {
+    box-shadow: 1px 2px 3px #2e2e2e;
+}
+
+.setWidth {
+    width: 6.5em;
+    display: inline-block;
+}
+
+span.lilSpace {
+    display: inline-block;
+    width: 0.8em;
+}
+
+.revised {
+    text-align: right;
+    font-size: 0.9em;
+}
+
+footer {
+    text-align: center;
+}

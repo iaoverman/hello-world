@@ -1,0 +1,64 @@
+/*  External style sheet for featuredAuthor.html
+    Author:  Isabel Overman
+    Date:  12/16/2018
+*/
+
+/*
+    Below are styles that are specific to the
+    featuredAuthor.html web page
+*/
+
+h2 {
+    text-align: center;
+}
+
+img#authorImage {
+    width: 12em;
+    float: right;
+    padding: 1em;
+    margin-left: 1em;
+    margin-top: -1em;
+}
+
+article#authorBio {
+    margin-top: 1em;
+    width: 70em;
+}
+
+article#authorBio p {
+    padding: 2em;
+}
+
+h3 {
+    text-align: center;
+}
+
+
+table {
+    text-align: center;
+    width: 60em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img#nameOfTheWindImage, #wiseMansFearImage, #slowRegardImage {
+    height: 15em;
+    padding: 1em;
+
+}
+
+figcaption#windFigcaption, #fearFigCaption, #silentFigcaption {
+
+}
+
+article#reviews {
+    margin-top: 3em;
+}
+
+
+
+footer {
+    text-align: center;
+    margin-top: 3em;
+    font-size: 1.1em
+}

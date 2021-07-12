@@ -1,0 +1,78 @@
+/*  External style sheet for volunteers.html
+    Author:  Isabel Overman
+    Date:  mm/dd/2018
+*/
+
+/*
+    Below are styles that are specific to the
+    volunteers.html web page
+*/
+
+h2 {
+    text-align: center;
+}
+
+table {
+    text-align: center;
+    width: 50em;
+    margin: 1em auto 2em auto;
+    background-color: #b9b9b9;
+    border-collapse: collapse;
+
+}
+
+img.headshot {
+    height: 10em;
+}
+
+table img {
+    height: 15em;
+}
+
+table td {
+    padding: 1em;
+    border: 0.2em dotted black;
+}
+
+span#formReveal {
+    color: #e80000;
+}
+
+form {
+    border: 0.3em groove #b90000;
+    padding: 0.1em;
+}
+
+form legend {
+    background-color: #e80000;
+    padding: 0.1em;
+    border: 0.1em dotted black;
+    box-shadow: 1px 2px 3px darkslategrey;
+}
+
+article#volunteersInfo {
+    margin: 1em auto 1em auto;
+    border: .2em dashed #b90000;
+    padding: .5em;
+}
+
+p#studentsShoutout {
+    text-align: center;
+}
+
+p#formParaph {
+    text-align: center;
+    margin-top: 2em;
+}
+
+span#formReveal {
+    background-color: #d10000;
+    color: #b9b9b9;
+    border: 0.15em outset #a2a2a2;
+    padding: 0.1em 0.5em 0.1em 0.5em;
+    border-radius: 9px;
+}
+
+footer {
+    margin-top: 2em;
+}

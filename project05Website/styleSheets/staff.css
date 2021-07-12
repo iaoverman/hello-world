@@ -1,0 +1,31 @@
+/*  External style sheet for staff.html
+    Author:  Isabel Overman
+    Date:  12/17/2018
+*/
+
+/*
+    Below are styles that are specific to the
+    staff.html web page
+*/
+
+h2 {
+    text-align: center;
+    margin-top: 2em;
+}
+
+table {
+    text-align: center;
+    margin: 1em auto 2em auto;
+    width: 50em;
+    background-color: #b9b9b9;
+    border-collapse: collapse;
+}
+
+table img {
+    height: 15em;
+}
+
+table td {
+    padding: 1em;
+    border: 0.2em dotted black;
+}
